@@ -20,6 +20,6 @@ end
 
 def find_the_cheese(array)
   array.select do |food|
-  food.include?("cheddar", "gouda", "camembert")
+  array.include?("cheddar", "gouda", "camembert")
 end
 end
