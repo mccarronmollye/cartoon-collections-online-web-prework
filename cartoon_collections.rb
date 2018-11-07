@@ -8,8 +8,7 @@ end
 
 def summon_captain_planet(list)
   list.collect do |strength|
-    strength.capitalize
-    strength + "!"
+    strength.capitalize + "!"
   end
 end
 
